@@ -65,6 +65,10 @@ body {
   /* border-bottom: 1px solid #ddd; */
 }
 
-.ResultTable tr:hover {
-  background-color: rgb(175, 211, 223);
+.ResultTable tr:nth-child(n):hover {
+  background-color: rgb(153, 231, 255);
+}
+
+.ResultTable tr:nth-child(even) {
+  background-color: rgb(211, 243, 253); 
 }
